@@ -1,0 +1,2 @@
+# sensihome
+Sensihome core application
