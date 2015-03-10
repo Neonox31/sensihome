@@ -8,6 +8,6 @@
       "uri": "mongodb://127.0.0.1:27017"
   },
   "plugins": {
-      "autostart": false
+      "autostart": true
   }
 }
