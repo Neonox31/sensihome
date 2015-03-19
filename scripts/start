@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]
+  then ENV='development'
+fi
+
+if [[ $1 == 'dev' ]]
+  then ENV='development'
+fi
+
+if [[ $1 == 'prod' ]]
+  then ENV='production'
+fi
+
+NODE_ENV=$ENV node /home/lolo/projects/node/sensihome/index.js
