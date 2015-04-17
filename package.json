@@ -15,10 +15,10 @@
     "hapi": "~8.2.0",
     "require-directory": "~2.1.0",
     "boom": "~2.6.1",
-    "mongoose": "~3.8.24",
     "joi": "~6.0.4",
     "joi-objectid": "~1.1.0",
     "nconf": "~0.7.1",
-    "hapi-io": "0.0.4"
+    "hapi-io": "0.0.4",
+    "mongoose": "~4.0.1"
   }
 }
