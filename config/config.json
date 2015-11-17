@@ -3,8 +3,13 @@
       "host": "0.0.0.0",
       "port": 4663
   },
-  "database": {
+  "db": {
       "uri": "mongodb://127.0.0.1:27017/sensihome"
+  },
+  "logger": {
+      "file": {
+          "path": "log/sensihome.log"
+      }
   },
   "plugins": {
       "autostart": true
